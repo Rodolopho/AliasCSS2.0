@@ -1,0 +1,27 @@
+{
+  "name": "aliascss",
+  "version": "1.0.1",
+  "description": "CSS Framework PostProcessor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Aliascss",
+    "acss",
+    "css",
+    "postprocessor",
+    "css",
+    "framework"
+  ],
+  "author": "Bikram Thapa",
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
