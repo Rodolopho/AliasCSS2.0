@@ -6,7 +6,7 @@
 <!-- [![Alt AliasCSS Introduction](http://img.youtube.com/vi/JFzL5sTO6bM/0.jpg)](https://youtu.be/JFzL5sTO6bM) -->
 ## Getting Started
 ### Installation
-##### There are two major files in ACSS one is css file and another is javascript file.The css file includes all classNames that doesnot require to be compiled. It should be alway used. The javascript file complies the valid ACSS classNames to corresponding defination and outputs in html document under style tag with id "styleAlias", these classNames can be moved anywhere in internal or external stylesheet
+<!-- ##### There are two major files in ACSS one is css file and another is javascript file.The css file includes all classNames that doesnot require to be compiled. It should be alway used. The javascript file complies the valid ACSS classNames to corresponding defination and outputs in html document under style tag with id "styleAlias", these classNames can be moved anywhere in internal or external stylesheet -->
 <!-- #### [Download AliasCSS](http://aliascss.com/doc.html#downloads) -->
 ### Let's start exploring AliassCSS with simple template.
 ```html
