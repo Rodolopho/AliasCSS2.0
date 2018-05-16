@@ -3,15 +3,15 @@
 ##### AliasCSS(ACSS) is a css framework: a css processor that is developed
   to experiment with design  of the layouts and web pages with
   very ease , flexibily and Quickly.
-#####T he idea behind the application of ACSS, is first introducted  to provide quick ways of experimenting layout design and trying new possibilitise for
+##### T he idea behind the application of ACSS, is first introducted  to provide quick ways of experimenting layout design and trying new possibilitise for
    the look and feel of your desgin.* 
 <!-- ###Intro Video :ALiasCSS -->
 <!-- [![Alt AliasCSS Introduction](http://img.youtube.com/vi/JFzL5sTO6bM/0.jpg)](https://youtu.be/JFzL5sTO6bM) -->
-##Getting Started
-###Installation
-#####There are two major files in ACSS one is css file and another is javascript file.The css file includes all classNames that doesnot require to be compiled. It should be alway used. The javascript file complies the valid ACSS classNames to corresponding defination and outputs in html document under style tag with id "styleAlias", these classNames can be moved anywhere in internal or external stylesheet
-####[Download AliasCSS](http://aliascss.com/doc.html#downloads)
-###Let's start exploring AliassCSS with simple template.
+## Getting Started
+### Installation
+##### There are two major files in ACSS one is css file and another is javascript file.The css file includes all classNames that doesnot require to be compiled. It should be alway used. The javascript file complies the valid ACSS classNames to corresponding defination and outputs in html document under style tag with id "styleAlias", these classNames can be moved anywhere in internal or external stylesheet
+#### [Download AliasCSS](http://aliascss.com/doc.html#downloads)
+### et's start exploring AliassCSS with simple template.
 ```html
 
 <!DOCTYPE html>
@@ -33,15 +33,15 @@
   <script src="js/alias.min.js"></script>
 </html>
 ```
-####How it works
-#####"In AliasCSS , normally every Aliascss's className holds single property and value/s for it."
+#### How it works
+##### "In AliasCSS , normally every Aliascss's className holds single property and value/s for it."
 
 In the above example, look at class attribute of h1 element i.e __\<h1 class="fw6 br5px bgc_hccc c_ngreen p10px dib"\\>Hello, world\!\</h1\>__. This is just ordinary h1 element with class "fw6 br5px bgc_hccc c_ngreen p10px dib". But the classes defined holds special meaning, they are not just classNames they are also aliases of className property and values in the form of classNames----which is compiled to a corresponding property and value by ACSS .
 __fw6 alias for font-wight:600br5px__ alias for __border-radius:5px__ and  __bgc_hccc__ alias for __background-color:#ccc__, here __c_h__ means color by hexadecimal if you want color by name simply use c_n e.g __bgc_nred__
 
 Most of the class attribute are define in the same way as above , it just requires to learn the rules of defining className, there are just few lines of rules to follow.
 
-####Rules
+#### Rules
 1.The first letter of each Property and vlaue is picked for defining className, for eg. dn represent display:none; pf represent position:fixed , that mean if you want to give element a style position to fixed , with AliasCSS you just need to add className "pf" in the element , if you want give above h1 element a fixed position then it looks like
 ```html
 <h1 class="fw6 br5px bgc_hccc c_ngreen p10px dib pf">Hello, world!</h1>
