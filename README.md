@@ -1,8 +1,9 @@
-#AliasCSS
-#####AliasCSS(ACSS) is a css framework: a css processor that is developed
+
+# AliasCSS
+##### AliasCSS(ACSS) is a css framework: a css processor that is developed
   to experiment with design  of the layouts and web pages with
   very ease , flexibily and Quickly.
-#####The idea behind the application of ACSS, is first introducted  to provide quick ways of experimenting layout design and trying new possibilitise for
+#####T he idea behind the application of ACSS, is first introducted  to provide quick ways of experimenting layout design and trying new possibilitise for
    the look and feel of your desgin.* 
 <!-- ###Intro Video :ALiasCSS -->
 <!-- [![Alt AliasCSS Introduction](http://img.youtube.com/vi/JFzL5sTO6bM/0.jpg)](https://youtu.be/JFzL5sTO6bM) -->

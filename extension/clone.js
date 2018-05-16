@@ -1,4 +1,4 @@
-
+// AliasCSS, before cloning check if it has classname to clone or not
 // -------------------------------------------clone
 //Clone classname of any element to this element
 	var ACSSClone=function(element){
